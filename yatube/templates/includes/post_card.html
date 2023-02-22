@@ -1,0 +1,19 @@
+<ul>
+  {% if not is_author %}
+    <li>
+      <h6>Автор: {{ post.author }}
+    </li>
+  {% endif %}
+  <li>
+    <h6>Дата публикации: {{ post.pub_date|date:"j E Y" }}</h6>
+  </li>
+  <p>{{ post.text|linebreaksbr }}</p>
+  {% if not is_author %}
+    <li><a href="{% url 'posts:post_detail' post.id %}">подробная информация </a></li>
+  {% endif %}
+  {% if not is_music %}
+    {% if post.group %}
+      <li><a href="{% url 'posts:group_list' post.group.slug %}">все записи группы: {{ post.group.title }}</a></li>
+    {% endif %}
+  {% endif %}
+</ul>
