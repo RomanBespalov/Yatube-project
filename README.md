@@ -17,7 +17,7 @@
   - In the virtual environment, install the dependencies: (venv).../Yatube-project/$ pip install -r requirements.txt
 </p>
 <p>
-  - Go to yatube folder, where manage.py is located: python manage.py migrate and after python3 manage.py runserver
+  - Go to yatube folder, where manage.py is located: python manage.py migrate and after - python3 manage.py runserver
 </p>
 <p>
   - Open the link!
