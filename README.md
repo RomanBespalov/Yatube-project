@@ -1,6 +1,10 @@
 <h1>My first Django project</h1>
 
-<h4>1. Instruction how to launch project:</h4>
+<h4> :moon: Description:</h4>
+<p>
+  - The Yatube-project is a social network, where users can post, comments and subscribe to authors.
+</p>
+<h4> :notebook: Instruction how to launch project:</h4>
 <p>
   - In folder: git clone git@github.com:RomanBespalov/Yatube-project.git
 </p>
