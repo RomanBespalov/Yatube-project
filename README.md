@@ -4,6 +4,9 @@
 <p>
   - The Yatube-project is a social network, where users can post, comments and subscribe to authors.
 </p>
+<p>
+  👨‍💻 Here you can see my website: romanbespalov.pythonanywhere.com
+</p>
 <h4> :notebook: Instruction how to launch project:</h4>
 <p>
   - In folder: git clone git@github.com:RomanBespalov/Yatube-project.git
@@ -25,7 +28,4 @@
 </p>
 <p>
   - Open the link!
-</p>
-<p>
-  Here you can see my website 👨‍💻 : romanbespalov.pythonanywhere.com
 </p>
